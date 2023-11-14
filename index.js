@@ -76,7 +76,7 @@ const PORT = process.env.PORT || 5000;
  */ app.use(
   cors({
     // "http://localhost:3000/contact"
-    origin: "https://IHEB-BEN-SOLTANE.onrender.com", // Replace with your React app's URL
+    origin: "https://iheb-ben-soltane.onrender.com/contact", // Replace with your React app's URL
     methods: "GET,HEAD,PUT,PATCH,POST,DELETE",
     credentials: true,
   })
